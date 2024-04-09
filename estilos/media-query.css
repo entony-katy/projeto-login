@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+/*versao para tablet*/
+@media screen and (min-width: 700px) and (max-width: 992px) { 
+
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+
+    section {
+        width: 80vw;
+    }
+
+    div#foto {
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+
+    div#formulario {
+        float: right;
+        height: 100%;
+        width: 60%;
+    }
+}
+
+
+
+/*versao para telas maiores*/
+@media screen and (min-width: 993px) { 
+
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+
+    section {
+        width: 85%;
+    }
+
+    div#foto {
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    div#formulario {
+        float: left;
+        height: 100%;
+        width: 50%;
+    }
+}
