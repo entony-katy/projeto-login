@@ -48,8 +48,7 @@ section {
 div#foto {
     display: block;
 
-    background: var(--lilas) url(../imagem/foto-login.jpg) no-repeat;
-    background-position: center;
+    background: var(--lilas) url(../imagem/foto-login.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
 }

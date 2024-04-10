@@ -15,13 +15,13 @@
     div#foto {
         float: left;
         height: 100%;
-        width: 40%;
+        width: 35%;
     }
 
     div#formulario {
         float: right;
         height: 100%;
-        width: 60%;
+        width: 65%;
     }
 }
 
