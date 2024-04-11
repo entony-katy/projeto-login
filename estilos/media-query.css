@@ -10,6 +10,7 @@
 
     section {
         width: 80vw;
+        height: 300px;
     }
 
     div#foto {
@@ -30,6 +31,7 @@
 
     div#formulario > p {
         font-size: .9em;
+        margin:10px 20px ;
     }
 }
 
@@ -43,7 +45,8 @@
     }
 
     section {
-        width: 85%;
+        width: 900px;
+        height: 320px;
     }
 
     div#foto {
@@ -63,6 +66,8 @@
     }
 
     div#formulario > p {
-        font-size:1.2em ;
+        font-size:1em ;
+        margin: 0px 10px 15px 10px
     }
+
 }
